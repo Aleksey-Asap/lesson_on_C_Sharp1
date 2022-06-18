@@ -6,7 +6,7 @@
 
 Console.WriteLine("Введите число: ");
 int a = int.Parse(Console.ReadLine());
-if (a % 7 == 0)
+if (a % 7 == 0) // или можно записать так (a % 7 == 0 & a % 23 == 0)
 {
     if (a % 23 == 0);
     Console.WriteLine("Да");
